@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/07bb39347f.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
 <body>
-    
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="ervaring.html">Experiences</a>
+            <a href="hobby.html">Hobby</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main>
+            <h1>Contact Form</h1>
+                <div class="col1">
+                <form action="https://tm-statweb.be/forms.php" method="post">
+                <div>
+                    <label for="name">Name:
+                        <input type="name" id="name" name="name" placeholder="Name" required></input>
+                    </label>
+                </div>
+                <div>
+                    <label for="mail">E-mail Address:
+                        <input type="mail" id="mail" name="mail"  placeholder="E-mail" required></input>
+                    </label>
+                </div>
+                <div>
+                    <label for="onderwerp">Subject:
+                        <input type="subject" id="subject" name="subject" placeholder="Subject" required></input>
+                    </label>
+                </div>
+                <div>
+                    <label for="textarea">Comment</label>
+                </div>
+                <div>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Please write your comment here." required></textarea>
+                </div>
+                <div>
+                    <label for="verzenden">
+                        <input type="submit" value="Send" id="Send" name="send">
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="col2">
+            
+        </div>
+        </main>
+        <footer>
+            <div class="footercol1">
+                <p>Author: Giang Truong</p>
+            </div>
+            <div class="footercol2">
+                <p>My LinkedIn: <a href="https://www.linkedin.com/in/giang-truong762/"><i class="fa-brands fa-linkedin-in"></i></a></p>
+                <p>+32475725582: <a href="tel:+32475725582"><i class="fa-brands fa-whatsapp"></i></a></p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
