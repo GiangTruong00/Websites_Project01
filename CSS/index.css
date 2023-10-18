@@ -35,9 +35,33 @@ main {
 
 h1, h2 {
   font-family: 'Space Mono';
+  margin: 0;
 }
 
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -300px;
+}
+
+.homefoto {
+  transform: scale(0.3);
+}
+
+.textarea {
+  flex: 60%;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.photo {
+  flex: 40%; 
+}
+
+
 .knoppen {
+  margin-top: -200px;
   display: flex;
   justify-content: space-between;
 }
