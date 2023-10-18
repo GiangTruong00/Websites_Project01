@@ -28,6 +28,34 @@ nav a:hover{
   background-color: black;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start; 
+  height: 100vh;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -300px;
+}
+
+.textarea, .photo {
+  align-items: center; 
+}
+
+.textarea {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.photo {
+  width: 50%;
+}
+
 main {
   font-family: Helvetica, sans-serif;
   padding: 10px;
@@ -42,23 +70,22 @@ h1, h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -300px;
+
 }
 
-.homefoto {
+.photo img {
   transform: scale(0.3);
 }
 
 .textarea {
-  flex: 60%;
+  flex: 70%;
   padding: 20px;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .photo {
-  flex: 40%; 
+  flex: 30%; 
 }
-
 
 .knoppen {
   margin-top: -200px;
