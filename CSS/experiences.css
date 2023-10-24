@@ -30,7 +30,7 @@ nav {
   main {
     font-family: Helvetica, sans-serif;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0 150px;
   }
 
   .containergif {
@@ -54,8 +54,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 20px;
-    position: fixed;
+    padding: 15px;
     bottom: 0;
     width: 100%;
     align-items: center;
