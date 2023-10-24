@@ -40,7 +40,7 @@ nav {
     justify-content: space-between;
     color: white;
     padding: 20px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     align-items: center;
